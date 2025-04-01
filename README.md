@@ -1,6 +1,6 @@
 ## CS4501 Project 2
-### Group Members: Bella Heintges, Emmie Halter, Ryan Steele
-### Instructor: Henry Kautz
+#### Group Members: Bella Heintges, Emmie Halter, Ryan Steele
+#### Instructor: Henry Kautz
 # Inferring Location History from Online Data
 
 ## Overview
