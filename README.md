@@ -14,9 +14,11 @@ Using Python, clustering algorithms, and the Foursquare Places API, we transform
 - The dataset only included moments when Snapchat was actively in use, leading to sparsity and behavioral skew.
 
 ## Methodology
-1. **Parsing & Cleaning:** Python scripts were developed to extract, clean, and format the JSON data, filtering out GPS noise and converting timestamps.
-2. **Clustering Significant Locations:** The DBSCAN algorithm (with haversine distance) was applied to group GPS points into meaningful clusters. This helped distinguish between transition points and actual visited locations.
-3. **Location Labeling with Foursquare API:** The Foursquare Places API was used to enrich clusters with venue names and categories. Categories were assigned to each location cluster.
+**Parsing & Cleaning:** Python scripts were developed to extract, clean, and format the JSON data, filtering out GPS noise and converting timestamps.
+
+**Clustering Significant Locations:** The DBSCAN algorithm (with haversine distance) was applied to group GPS points into meaningful clusters. This helped distinguish between transition points and actual visited locations.
+
+**Location Labeling with Foursquare API:** The Foursquare Places API was used to enrich clusters with venue names and categories. Categories were assigned to each location cluster.
 
 ## Repository Contents
 **project-2/** - Core Python scripts for data processing, clustering, labeling, and visualization. In particular, **analyze_locations.py** reflects the code used to parse the JSON, apply DBSCAN clustering, and process raw location data.
